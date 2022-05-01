@@ -1,0 +1,84 @@
+/* 秒杀 */
+.kill {
+    position: absolute;
+    border-left: 2px solid #c81523;
+    padding-left: 10px;
+    padding-top: 3px;
+    left: 190px;
+    top: 40px;
+}
+/* 导航 */
+.guide {
+    height: 32px;
+    border-bottom: 2px solid #b1191a;
+}
+.guide_1 {
+    float: left;
+    width: 452px;
+    height: 32px;
+    margin-left: 105px;
+}
+.guide_1 ul {
+    width: 452px;
+}
+.guide_1 ul li a {
+    float: left;
+    margin: 0px 38px 0px 35px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    line-height: 6px;
+}
+.guide_2 {
+    float: left;
+    width: 940px;
+    height: 32px;
+    padding-left: 0px;
+}
+.guide_2 ul {
+    margin-left: 100px;
+}
+.guide_2 ul li a {
+    float: left;
+    margin-right: 38px;
+    line-height: 6px;
+    font-size: 14px;
+}
+.guide_2 ul li .last {
+    margin-right: 0px;
+}
+.guide_2 ul li:last-child::after {
+    float: right;
+    content: '\e91e';
+    font-family: 'icomoon';
+    display: block;
+    margin-right: 200px;
+    line-height: 7px;
+}
+
+/* 主体部分制作 */
+.list_focus {
+    width: 1200px;
+    height: 120px;
+    margin-left: 122px;
+}
+
+/* 商品部分制作 */
+.buy {
+    height: auto;
+    width: 1200px;
+    margin-left: 122px;
+    background-color: pink;
+    margin-bottom: 461px;
+}
+.buy ul li {
+    width: 290px;
+    height: 460px;
+    float: left;
+    margin-right: 8px;
+    margin-left: 0px;
+    border: 1px solid transparent;
+}
+.buy ul li:hover {
+    border: 1px solid #c81523;
+}

@@ -1,0 +1,116 @@
+.w {
+    width: 1200px;
+    margin: auto;
+}
+
+/* 头部 */
+.header {
+    height: 83px;
+    border-bottom: 2px solid red;
+    margin-bottom: 15px;
+}
+.header .h_pic {
+    margin-top: 19px;
+    float: left;
+}
+.registerarea {
+    height: 522px;
+    border: 1px solid #cccccc;
+}
+.registerarea .r_1 {
+    height: 50px;
+    border-bottom: 1px solid #cccccc;
+    background-color: #ececec;
+}
+.registerarea .r_1 .r_1_1 {
+    float: left;
+    font-size: 19px;
+    color: #666666;
+    padding-left: 15px;
+    line-height: 51px;
+}
+.registerarea .r_1 .r_1_2 {
+    float: right;
+    margin-right: 10px;
+    line-height: 51px;
+    color: #666666;
+    font-size: 16px;
+}
+.registerarea .r_1 .r_1_2 a {
+    color: #c81523;
+}
+.registerarea .r_2 {
+    width: 600px;
+    margin: 50px auto 0px;
+}
+.registerarea .r_2 ul li {
+    margin-bottom: 20px;
+}
+.registerarea .r_2 ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.registerarea .r_2 ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid #ccc;
+}
+.registerarea .r_2 ul li .error {
+    color: red;
+}
+.registerarea .r_2 ul li .right {
+    color: green;
+}
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background: url(../images/error.png);
+}
+.right_icon {
+    display: inline-block;
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    background: url(../images/right.png);
+}
+.safe {
+    padding-left: 170px;
+}
+.safe em {
+    padding: 0px 12px;
+    color: white;
+}
+.ruo {
+    background-color: #de1111;
+}
+.zhong {
+    background-color: #40b83f
+}
+.qiang {
+    background-color: #f79100;
+}
+.agree {
+    padding-left: 95px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    color: #64a1ea;
+}
+.buttom {
+    width: 160px;
+    height: 45px;
+    background-color: #c81623;
+    color: white;
+    font-size: 22px;
+    line-height: 39px;
+    padding-left: 58px;
+    margin-left: 100px;
+    border-radius: 2px;
+}

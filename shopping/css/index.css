@@ -1,0 +1,306 @@
+/* 声明字体图标 注意路径变化 */
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?tomleg');
+    src:  url('../fonts/icomoon.eot?tomleg#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?tomleg') format('truetype'),
+      url('../fonts/icomoon.woff?tomleg') format('woff'),
+      url('../fonts/icomoon.svg?tomleg#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+/* 主体盒子 */
+.main {
+    width: 980px;
+    height: 455px;
+    margin-left: 220px;
+    margin-top: 10px;
+}
+
+/* 版芯 */
+.w ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+.focus {
+    float: left;
+    width: 721px;
+    height: 455px;
+    background-color: purple;
+}
+.newsflash {
+    float: right;
+    width: 250px;
+    height: 455px;
+}
+.news {
+    height: 165px;
+    padding-top: 10px;
+    border: 1px solid #e5e5e5;
+}
+.lifeservice {
+    height: 198px;
+    border-left: 1px solid #e5e5e5;
+}
+.bargain {
+    margin-top: 5px;
+}
+.news .news_hd {
+    height: 28px;
+    border-bottom:1px dotted #e5e5e5;
+}
+.news .news_hd .left {
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 14px;
+}
+.news .news_hd .right {
+    float: right;
+}
+.news .news_hd .right::after {
+    content: '\e91e';
+    font-family: 'icomoon';
+    margin-right: 14px;
+    margin-left: 8px;
+}
+.news .news_bd {
+    padding: 5px 15px 0px;
+}
+.news .news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+}
+.lifeservice ul li {
+    float: left;
+    width: 61.25px;
+    height: 66px;
+    border-right:1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+}
+.lifeservice ul li p {
+    width: 62px;
+    height: 22px;
+    margin: 0px;
+    padding-bottom: 0px;
+    line-height: 11px;
+}
+.lifeservice ul li .one {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -17px -15px;
+}
+.lifeservice ul li .two {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -79px -17px;
+}
+.lifeservice ul li .third {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -142px -17px;
+}
+.lifeservice ul li .four {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -206px -17px;
+}
+.lifeservice ul li .five {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -17px -87px;
+}
+.lifeservice ul li .six {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -80px -87px;
+}
+.lifeservice ul li .seven {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -142px -87px;
+}
+.lifeservice ul li .eight {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -208px -87px;
+}
+.lifeservice ul li .nine {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -16px -159px;
+}
+.lifeservice ul li .ten {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -79px -158px;
+}
+.lifeservice ul li .eleven {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -142px -154px;
+}
+.lifeservice ul li .twelve {
+    width: 24px;
+    height: 28px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 12px;
+    margin-left: 2px;
+    background: url(../images/icons.png) no-repeat -208px -158px;
+}
+
+/* 推荐模块 */
+.recommend {
+    width: 1200px;
+    height: 163px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #ebebeb;
+}
+.recommend .recommend_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    background-color: #5c5251;
+}
+.recommend .recommend_hd .picture {
+    margin-top: 27px;
+    margin-left: 62px;
+}
+.recommend .recommend_bd ul li {
+    position: relative;
+    float: left;
+    width: 21%;
+    height: 132px;
+}
+.recommend_bd ul li:nth-child(-n+3)::after {
+    content: '';
+    position: absolute;
+    right: 0px;
+    top: 10px;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+
+/* 楼层区 */
+/* 家用电器模块 */
+.box_hd {
+    height: 26px;
+    border-bottom: 2px solid #c81623;
+    margin-top: 15px;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    color: #c81623;
+    font-weight: 400;
+    margin: 0px;
+}
+.tab_list {
+    float: right;
+    height: 26px;
+}
+.tab_list ul li {
+    float: left;
+    line-height: 34px;
+}
+.tab_list ul li a {
+    padding: 0px 19px;
+}
+.box_bd {
+    height: 360px;
+}
+.tab_list_item>div {
+    float: left;
+}
+.box_bd .bd_1 {
+    width: 206px;
+    height: 360px;
+    background-color: #f9f9f9;
+}
+.box_bd .bd_1  ul{
+    height: 126px;
+}
+.box_bd .bd_1 .text {
+    float: left;
+    text-align: center;
+    width: 79px;
+    height: 36px;
+    line-height: 43px;
+    font-size: 12px;
+    border-bottom:1px solid #cccccc ;
+    margin-left: 15px;
+}
+.box_bd .bd_1 img {
+    margin-left: 15px;
+}
+.box_bd .bd_2 {
+    float: left;
+    width: 329px;
+    background-color: skyblue;
+    margin-top: 0px;
+}
+.box_bd .bd_3 {
+    border-right: 1px solid #cccccc;
+}
+.box_bd .bd_3 img {
+    border-bottom: 1px solid #cccccc;
+}
+.box_bd .bd_4 {
+    border-right: 1px solid #cccccc;
+}
+.box_bd .bd_5 {
+    border-right: 1px solid #cccccc;
+}
+.box_bd .bd_5 .bd_5_1 {
+    border-bottom: 1px solid #cccccc;
+}
